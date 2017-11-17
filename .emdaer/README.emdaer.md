@@ -31,7 +31,7 @@ node_js:
   - 9
 ...
 after_success:
-  - travis-spawn-once .travis/after_success.sh
+  - travis-spawn-once .travis/after_success.sh --skipPR
 ```
 
 ## Options
@@ -48,7 +48,7 @@ Options
       --travisPro, -p      Indicate that you're using Travis Pro 
 
 Examples
-  $ travis-spawn-once "yarn deploy" --skip-pr
+  $ travis-spawn-once "yarn deploy" --skipPR
 ```
 
 ## Contributing
