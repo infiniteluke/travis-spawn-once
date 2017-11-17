@@ -8,14 +8,13 @@ Please fill out this template with all the relevant information so we can
 understand what's going on and fix the issue.
 -->
 
-- `emdaer` version:
-- `plugin-relevant-plugin-name` version (multiple if relevant):
+- `travis-spawn-once` version:
 - `node` version:
 - `npm` (or `yarn`) version:
 
-Contents of your *.emdaer.md file:
+Command being run:
 
-```md
+```sh
 
 ```
 
