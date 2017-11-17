@@ -1,0 +1,64 @@
+{
+  "name": "travis-spawn-once",
+  "description": "🔂 run a command only once in the travis test matrix",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "make precommit",
+    "commitmsg": "make commitmsg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bin": {
+    "travis-spawn-once": "./lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infiniteluke/travis-spawn-once"
+  },
+  "keywords": [
+    "cli",
+    "bin",
+    "after",
+    "deploy",
+    "once",
+    "command",
+    "success",
+    "travis"
+  ],
+  "devDependencies": {
+    "@commitlint/config-angular": "^4.2.1",
+    "@commitlint/config-lerna-scopes": "^4.2.1",
+    "@emdaer/cli": "^1.6.15",
+    "@emdaer/core": "^1.6.15",
+    "@emdaer/plugin-contributors-details-github": "^1.6.15",
+    "@emdaer/plugin-documentation": "^1.6.15",
+    "@emdaer/plugin-import": "^1.6.15",
+    "@emdaer/plugin-license-reference": "^1.6.15",
+    "@emdaer/plugin-shields": "^1.6.15",
+    "@emdaer/plugin-value-from-package": "^1.6.15",
+    "@emdaer/transform-prettier": "^1.6.15",
+    "@emdaer/transform-smartypants": "^1.6.15",
+    "@emdaer/transform-table-of-contents": "^1.6.15",
+    "babel-eslint": "7.2.3",
+    "commitlint": "^4.2.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "husky": "0.13.3",
+    "jest": "^21.2.1",
+    "lint-staged": "3.4.1",
+    "prettier": "1.7.0",
+    "semantic-release-cli": "^3.2.5",
+    "semantic-release": "^8.2.0"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "travis-deploy-once": "^3.0.0"
+  }
+}
