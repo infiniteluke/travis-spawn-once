@@ -1,0 +1,6 @@
+.emdaer
+.eslintrc.*
+.prettier*
+.gitignore
+.travis.yml
+yark.lock
