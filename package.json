@@ -6,7 +6,7 @@
   "scripts": {
     "precommit": "make precommit",
     "commitmsg": "make commitmsg",
-    "semantic-release": "semantic-release pre && yarn publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm run publish && semantic-release post"
   },
   "engines": {
     "node": ">=8.0.0"
